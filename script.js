@@ -6,4 +6,4 @@ function createMessage(){
       beyoncealbumParagraph.innerHTML =  `Dear Beyhive, Hi this is ${message.sender}, I would like to join the Beyhive. I love Beyonce! ${message.request} , ${message.sender}`;
     
     }
-    joinbeyhive.onclick = createMessage;
+    sendmessagetobeyhive.onclick = createMessage;
